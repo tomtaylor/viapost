@@ -1,32 +1,45 @@
 = viapost
 
-* FIX (url)
+* http://tomtaylor.co.uk/projects/viapost
+* http://www.viapost.com/
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Ruby library that wraps the Viapost SOAP API, providing an easy way of sending post (you know, real letter box post) from your applications.
+
+The author, Tom Taylor, has no affiliation with Viapost other than thinking it's a useful service.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+Supports:
+
+* Supports PDF upload
+* Fetching account balance
+* Sending of post
+
+Problems/missing:
+
+* Requires very strict address formats (Ensure 1, Road Name, not 1 Road Name, and so on. This is changing with an address cleanser in the upcoming Viapost 1.2 API).
+* No formatting of the PDF you send - you will need to position the address correctly for the address window.
+* No mail merge support.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+Coming soon.
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* soap4r >= 1.5.8
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install tomtaylor-viapost
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIXME full name
+Copyright (c) 2008 Tom Taylor
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
