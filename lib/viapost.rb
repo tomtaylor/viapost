@@ -4,6 +4,7 @@ $:.unshift(File.dirname(__FILE__)) unless
 gem 'soap4r'
 require 'soap/wsdlDriver'
 require 'viapost/interface'
+require 'viapost/letter'
 
 module Viapost
   VERSION = '0.0.1'
