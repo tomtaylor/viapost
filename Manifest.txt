@@ -1,14 +1,17 @@
 History.txt
 Manifest.txt
-PostInstall.txt
 README.rdoc
 Rakefile
+documentation/ViaPostCustomer API v1.1.pdf
 lib/viapost.rb
 lib/viapost/interface.rb
+lib/viapost/letter.rb
 script/console
 script/destroy
 script/generate
 spec/spec.opts
 spec/spec_helper.rb
+spec/viapost/interface_spec.rb
 spec/viapost_spec.rb
 tasks/rspec.rake
+viapost.gemspec
