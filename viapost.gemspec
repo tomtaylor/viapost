@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.name = %q{viapost}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Taylor"]
-  s.date = %q{2009-01-17}
+  s.date = %q{2009-01-18}
   s.description = %q{A Ruby library that wraps the Viapost SOAP API, providing an easy way of sending post (you know, real letter box post) from your applications.  The author, Tom Taylor, has no affiliation with Viapost other than thinking it's a useful service.}
   s.email = ["tom@tomtaylor.co.uk"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/viapost.rb", "lib/viapost/interface.rb", "script/console", "script/destroy", "script/generate", "spec/spec.opts", "spec/spec_helper.rb", "spec/viapost_spec.rb", "tasks/rspec.rake"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
+  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "documentation/ViaPostCustomer API v1.1.pdf", "lib/viapost.rb", "lib/viapost/interface.rb", "lib/viapost/letter.rb", "script/console", "script/destroy", "script/generate", "spec/spec.opts", "spec/spec_helper.rb", "spec/viapost/interface_spec.rb", "spec/viapost_spec.rb", "tasks/rspec.rake", "viapost.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://tomtaylor.co.uk/projects/viapost}
   s.rdoc_options = ["--main", "README.rdoc"]
